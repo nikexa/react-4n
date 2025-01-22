@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Card.css"
+import info from '../../images/info.svg'
 
 function Card(props) {
     return (
@@ -8,7 +9,7 @@ function Card(props) {
             <div className="card">
                 <div className="top">
                     <img className='mtavari' src={props.mtavari} alt="" />
-                    <img className='info' src="src/images/info.svg" alt="" />
+                    <img className='info' src={info} alt="" />
                 </div>
 
                 <div className="bottom">
